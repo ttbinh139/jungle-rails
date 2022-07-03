@@ -7,3 +7,16 @@ class LineItem < ApplicationRecord
   monetize :total_price_cents, numericality: true
 
 end
+
+function foo() {
+  console.log("foo")
+}
+
+function bar() {
+  foo();
+  console.log("bar");
+}
+
+bar();
+
+console.trace();
